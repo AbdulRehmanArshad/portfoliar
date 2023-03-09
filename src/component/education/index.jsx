@@ -5,7 +5,7 @@ import React from "react";
 const Education = () => {
   return (
     <>
-      <section class="md:py-16">
+      <section class="mt-14 md:py-16">
         <div class="container max-w-screen-xl mx-auto px-6">
           <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">
             Education

@@ -1,9 +1,9 @@
 /** @format */
 
 import React from "react";
-import profile from "../../assets/headerImages/Profile-image.jpg";
+import profile from "../../assets/headerImages/PP.png";
 import logo from "../../assets/headerImages/logo.png";
-import cv from "../../assets/headerImages/CV.pdf";
+import cv from "../../assets/headerImages/Abdulrehman (CV).pdf";
 
 const Header = () => {
   const DownloadFile = (params) => {
@@ -12,9 +12,9 @@ const Header = () => {
   return (
     <>
       <div class="bg-gray-100">
-        <section class="py-2 md:py-2">
+        <section class="py-2 md:py-2 ">
           <div class="container max-w-screen-xl mx-auto ">
-            <nav class="flex items-center justify-between ">
+            <nav class="flex items-center justify-between mt-12 ">
               <img
                 class="md:animate-spin object-scale-down h-20 ..."
                 src={logo}
@@ -52,7 +52,7 @@ const Header = () => {
                 Mid Level Frontend Developer
               </h1>
 
-              <p class="font-normal text-gray-600 text-md md:text-xl mb-16">
+              <p class="font-normal text-gray-600 text-md md:text-xl mb-24">
                 I do create a applications with React, Node and mongoDB. I have
                 three year experience in web development
               </p>
