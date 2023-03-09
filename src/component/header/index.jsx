@@ -11,7 +11,7 @@ const Header = () => {
   };
   return (
     <>
-      <div class="bg-gray-100">
+      <div class="">
         <section class="py-2 md:py-2 ">
           <div class="container max-w-screen-xl mx-auto ">
             <nav class="flex items-center justify-between mt-12 ">
