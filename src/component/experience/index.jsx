@@ -61,7 +61,7 @@ const Experience = () => {
             </li>
           </ol>
 
-          <div class="flex flex-col lg:flex-row justify-between mt-5">
+          {/* <div class="flex flex-col lg:flex-row justify-between mt-5">
             <div class="space-y-8 md:space-y-16 mb-16 md:mb-0 ">
               <h6 class="font-medium text-gray-800 text-base uppercase">
                 Company
@@ -105,7 +105,7 @@ const Experience = () => {
                 July 2021 - Jan 2022
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
     </>
