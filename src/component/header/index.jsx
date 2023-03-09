@@ -12,9 +12,9 @@ const Header = () => {
   return (
     <>
       <div class="bg-gray-100">
-        <section class="py-10 md:py-16">
-          <div class="container max-w-screen-xl mx-auto px-4">
-            <nav class="flex items-center justify-between mb-40">
+        <section class="py-2 md:py-2">
+          <div class="container max-w-screen-xl mx-auto ">
+            <nav class="flex items-center justify-between ">
               <img
                 class="md:animate-spin object-scale-down h-20 ..."
                 src={logo}
@@ -29,7 +29,7 @@ const Header = () => {
             </nav>
 
             <div class="text-center">
-              <div class="flex justify-center mb-16">
+              <div class="flex justify-center ">
                 <img
                   class="object-scale-down h-60 w-500 ... rounded-lg"
                   src={profile}
@@ -49,12 +49,12 @@ const Header = () => {
               })}
 
               <h1 class="font-normal text-gray-900 text-4xl md:text-7xl leading-none mb-8">
-                Junior Frontend Developer
+                Mid Level Frontend Developer
               </h1>
 
               <p class="font-normal text-gray-600 text-md md:text-xl mb-16">
-                I have a passion for software. I enjoy creating tools that make
-                life easier for people.
+                I do create a applications with React, Node and mongoDB. I have
+                three year experience in web development
               </p>
 
               <a
