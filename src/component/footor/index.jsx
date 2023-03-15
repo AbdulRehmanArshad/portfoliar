@@ -25,58 +25,52 @@ const Footor = () => {
               I got the experience. Here is my toolbelt for success.
             </p>
 
-            <div class="flex items-center justify-center space-x-8">
-              <a
+            <div class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-9 ">
+              <li
                 href="#"
-                class="w-20 h-20 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
+                class="lg:w-20  md:w-20  w-12  flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
                 <img src={logo} />
-              </a>
-
-              <a
+              </li>
+              <li
                 href="#"
-                class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
+                class="lg:w-20  md:w-20  w-12 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
                 <img src={nodelogo} />
-              </a>
-
-              <a
+              </li>
+              <li
                 href="#"
-                class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
+                class="lg:w-20  md:w-20  w-12 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
                 <img src={firebase} />
-              </a>
-
-              <a
+              </li>
+              <li
                 href="#"
-                class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
-                <img src={git} />
-              </a>
-
-              <a
-                href="#"
-                class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
-                <img src={htmls} />
-              </a>
-
-              <a
-                href="#"
-                class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
-                <img src={tailwinds} />
-              </a>
-              <a
-                href="#"
-                class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
+                class="lg:w-20  md:w-20  w-12 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
                 <img src={boot} />
-              </a>
-
-              <a
+              </li>
+              <li
                 href="#"
-                class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
+                class="lg:w-20  md:w-20  w-12 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
                 <img src={antd} />
-              </a>
-              <a
+              </li>
+              <li
                 href="#"
-                class="w-16 h-16 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
+                class="lg:w-20  md:w-20  w-12 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
+                <img src={tailwinds} />
+              </li>
+              <li
+                href="#"
+                class="lg:w-20  md:w-20  w-12 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
+                <img src={htmls} />
+              </li>
+              <li
+                href="#"
+                class="lg:w-20  md:w-20  w-12 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
                 <img src={java} />
-              </a>
+              </li>
+              <li
+                href="#"
+                class="lg:w-20  md:w-20  w-12 flex items-center justify-center rounded-full hover:bg-gray-200 transition ease-in-out duration-500">
+                <img src={git} />
+              </li>
             </div>
           </div>
         </div>

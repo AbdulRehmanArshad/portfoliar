@@ -5,7 +5,7 @@ import React from "react";
 const Experience = () => {
   return (
     <>
-      <section class="py-10 md:py-16">
+      <section class=" ">
         <div class="container max-w-screen-xl mx-auto px-4">
           <h1 class="font-medium text-gray-700 text-3xl md:text-4xl mb-5">
             Experience
@@ -106,6 +106,33 @@ const Experience = () => {
               </p>
             </div>
           </div> */}
+          {/* Card  */}
+          <div className="flex   ">
+            <div class="max-w-sm rounded overflow-hidden shadow-xl py-4 px-6 ">
+              <h4 class="font-medium text-gray-700 text-lg mb-2">
+                Phaedra Solution{" "}
+              </h4>
+
+              <p class="font-normal text-gray-500 text-md">
+                Mid level develpor
+              </p>
+              <p class="font-semibold text-gray-500 text-md relative z-10 ml-1">
+                March 2022 - October 2022
+              </p>
+            </div>
+            <div class="max-w-sm rounded overflow-hidden shadow-xl  py-5 px-16">
+              <h4 class="font-medium text-gray-700 text-lg mb-2">
+                Nextep Technology{" "}
+              </h4>
+
+              <p class="font-normal text-gray-500 text-md">
+                Junior level develpor
+              </p>
+              <p class="font-semibold text-gray-500 text-md relative z-10 ml-1">
+                July 2021 - Jan 2022
+              </p>
+            </div>
+          </div>
         </div>
       </section>
     </>
