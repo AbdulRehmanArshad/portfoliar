@@ -61,54 +61,9 @@ const Experience = () => {
             </li>
           </ol>
 
-          {/* <div class="flex flex-col lg:flex-row justify-between mt-5">
-            <div class="space-y-8 md:space-y-16 mb-16 md:mb-0 ">
-              <h6 class="font-medium text-gray-800 text-base uppercase">
-                Company
-              </h6>
-
-              <p class="font-semibold text-gray-600 text-base">
-                Phaedra Solution{" "}
-                <span class="font-normal text-gray-400">/ Lahore</span>
-              </p>
-
-              <p class="font-semibold text-gray-600 text-base">
-                Nextep Technology{" "}
-                <span class="font-normal text-gray-400">/ Islamabad</span>
-              </p>
-            </div>
-
-            <div class="space-y-8 md:space-y-16 mb-16 md:mb-0">
-              <h6 class="font-medium text-gray-800 text-base uppercase">
-                Position
-              </h6>
-
-              <p class="font-normal text-gray-600 text-base">
-                Mid Level Developer
-              </p>
-
-              <p class="font-normal text-gray-600 text-base">
-                Junior Developer
-              </p>
-            </div>
-
-            <div class="space-y-8 md:space-y-16">
-              <h6 class="font-medium text-gray-800 text-base uppercase">
-                Year
-              </h6>
-
-              <p class="font-normal text-gray-600 text-base">
-                March 2022 - October 2022
-              </p>
-
-              <p class="font-normal text-gray-600 text-base">
-                July 2021 - Jan 2022
-              </p>
-            </div>
-          </div> */}
           {/* Card  */}
-          <div className="flex   ">
-            <div class="max-w-sm rounded overflow-hidden shadow-xl py-4 px-6 ">
+          <div className="flex gap-4 mt-4 ">
+            <div class="max-w-sm rounded overflow-hidden shadow-xl py-6 px-4 bg-red-100 ">
               <h4 class="font-medium text-gray-700 text-lg mb-2">
                 Phaedra Solution{" "}
               </h4>
@@ -120,7 +75,7 @@ const Experience = () => {
                 March 2022 - October 2022
               </p>
             </div>
-            <div class="max-w-sm rounded overflow-hidden shadow-xl  py-5 px-16">
+            <div class="max-w-sm rounded overflow-hidden shadow-xl bg-red-100	 py-6 px-4">
               <h4 class="font-medium text-gray-700 text-lg mb-2">
                 Nextep Technology{" "}
               </h4>

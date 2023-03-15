@@ -16,8 +16,8 @@ const Education = () => {
           </p>
 
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-6">
-            <div class="bg-gray-50 px-4 py-4 rounded-md">
-              <h4 class="font-medium text-gray-700 text-lg mb-2">2017 </h4>
+            <div class="bg-gray-50 px-4 py-4 bg-red-100 rounded-md">
+              <h4 class="font-medium  text-lg mb-2">2017 </h4>
 
               <p class="font-normal text-gray-500 text-md">
                 INTERMEDIATE EDUCATION
@@ -26,7 +26,7 @@ const Education = () => {
                 Government College Qila didar Singh
               </p>
             </div>
-            <div class="bg-gray-50 px-4 py-4 rounded-md">
+            <div class="bg-gray-50 px-4 py-4 bg-red-100 rounded-md">
               <h4 class="font-medium text-gray-700 text-lg ">2018 – 2020</h4>
 
               <p class="font-normal text-gray-500 text-md ">
@@ -36,16 +36,6 @@ const Education = () => {
                 GIFT UNIVERSITY
               </p>
             </div>
-            {/* <div class="bg-gray-50 px-8 py-10 rounded-md">
-                        <h4 class="font-medium text-gray-700 text-lg mb-4">2015 – 2016</h4>
-
-                        <p class="font-normal text-gray-500 text-md mb-4">Lorem ipsum dolor sit amet, consectetur  adipiscing elit, sed do eiusmod tempor  incididunt ut labore et dolore magna aliqua.</p>
-
-                        <div class="relative">
-                            <h6 class="font-semibold text-gray-500 text-md relative z-10">See the place here</h6>
-                            <span class="w-32 h-1 bg-blue-200 absolute bottom-1 left-0 z-0"></span>
-                        </div> */}
-            {/* </div> */}
           </div>
         </div>
       </section>
